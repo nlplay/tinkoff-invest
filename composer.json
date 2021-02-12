@@ -1,0 +1,28 @@
+{
+    "name": "nlplay/tinkoff-invest",
+    "description": "Tinkoff invest REST API laravel facade",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Shaian",
+            "email": "vanguardkras@gmail.com",
+            "homepage": "https://shaian.ru",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nlplay\\TinkoffInvest\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nlplay\\TinkoffInvest\\Providers\\TinkoffInvestServiceProvider"
+            ]
+        }
+    }
+}
